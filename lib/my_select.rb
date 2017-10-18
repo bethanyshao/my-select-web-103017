@@ -1,10 +1,8 @@
-def my_select(collection)
- new_array = []
- i = 0
- while i < array.length do
-   if yield(array[i]) == true
-     new_array.push(yield(array[i]))
-   end
- end
- new_array
+def my_select(array)
+  new_array = []
+  i = 0
+  while i < array.length do
+    i += 1
+  end
+  new_array
 end
